@@ -11,12 +11,14 @@
   Call the function.
 */
 
-let phrase = 'Hello, World!'
-function helloWorld (phrase)
+
+function helloWorld ()
 {
-  console.log (phrase)
+  console.log ("Hello, world")
 }
-helloWorld (phrase)
+
+helloWorld ()
+
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -24,7 +26,7 @@ helloWorld (phrase)
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
-let jsNinja = () => 
+function jsNinja ()
 {
   return 'I am a JavaScript ninja!'
 }
@@ -382,3 +384,11 @@ let bathtubScope = []
 
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = []
+
+
+const groceries = ["Apples", "Oranges"]
+
+const purchasedGroceries = groceries.filter(() => {})
+
+
+multiply(10) // 100
